@@ -7,12 +7,10 @@
 
 import SwiftUI
 
-struct MyTextPreferenceData: Equatable {
-    // Something to identify the view
-    let viewIndex: Int
-    
-    // Location and size of of the view
-    let rect: CGRect
+struct MyTextPreferenceData {
+    let viewIdx: Int
+    var topLeading: Anchor<CGPoint>? = nil
+    var bottomTrailing: Anchor<CGPoint>? = nil
 }
 
 
