@@ -14,6 +14,7 @@
 		8969A7EA2866F2DC00B478C6 /* PrefKeyTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A7E92866F2DC00B478C6 /* PrefKeyTestsTests.swift */; };
 		8969A7F42866F2DC00B478C6 /* PrefKeyTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A7F32866F2DC00B478C6 /* PrefKeyTestsUITests.swift */; };
 		8969A7F62866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A7F52866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift */; };
+		8969A8032866F9E500B478C6 /* MyTextPreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A8022866F9E500B478C6 /* MyTextPreferenceData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8969A7EF2866F2DC00B478C6 /* PrefKeyTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrefKeyTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8969A7F32866F2DC00B478C6 /* PrefKeyTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefKeyTestsUITests.swift; sourceTree = "<group>"; };
 		8969A7F52866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefKeyTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8969A8022866F9E500B478C6 /* MyTextPreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextPreferenceData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				8969A7DA2866F2D900B478C6 /* ContentView.swift */,
 				8969A7DC2866F2DB00B478C6 /* Assets.xcassets */,
 				8969A7DE2866F2DB00B478C6 /* Preview Content */,
+				8969A8022866F9E500B478C6 /* MyTextPreferenceData.swift */,
 			);
 			path = PrefKeyTests;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				8969A7DB2866F2D900B478C6 /* ContentView.swift in Sources */,
 				8969A7D92866F2D900B478C6 /* PrefKeyTestsApp.swift in Sources */,
+				8969A8032866F9E500B478C6 /* MyTextPreferenceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
