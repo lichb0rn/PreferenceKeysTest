@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum MyViewType: Equatable {
+    case formContainer
+    case fieldContainer
+    case field(Int)
+    case title
+    case miniMapArea
+}

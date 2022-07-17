@@ -11,7 +11,8 @@ import SwiftUI
 struct PrefKeyTestsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            NestedContentView()
         }
     }
 }

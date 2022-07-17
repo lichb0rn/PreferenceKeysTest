@@ -15,6 +15,11 @@
 		8969A7F42866F2DC00B478C6 /* PrefKeyTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A7F32866F2DC00B478C6 /* PrefKeyTestsUITests.swift */; };
 		8969A7F62866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A7F52866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift */; };
 		8969A8032866F9E500B478C6 /* MyTextPreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969A8022866F9E500B478C6 /* MyTextPreferenceData.swift */; };
+		8990265D286745A200F99AC9 /* MyViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990265C286745A200F99AC9 /* MyViewType.swift */; };
+		8990265F2867461E00F99AC9 /* NestedViewsPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990265E2867461E00F99AC9 /* NestedViewsPreference.swift */; };
+		899026612867476E00F99AC9 /* NestedFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899026602867476E00F99AC9 /* NestedFormField.swift */; };
+		899026632867488E00F99AC9 /* NestedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899026622867488E00F99AC9 /* NestedContentView.swift */; };
+		8990266528674B2000F99AC9 /* MiniMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990266428674B2000F99AC9 /* MiniMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		8969A7F32866F2DC00B478C6 /* PrefKeyTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefKeyTestsUITests.swift; sourceTree = "<group>"; };
 		8969A7F52866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefKeyTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8969A8022866F9E500B478C6 /* MyTextPreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextPreferenceData.swift; sourceTree = "<group>"; };
+		8990265C286745A200F99AC9 /* MyViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewType.swift; sourceTree = "<group>"; };
+		8990265E2867461E00F99AC9 /* NestedViewsPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedViewsPreference.swift; sourceTree = "<group>"; };
+		899026602867476E00F99AC9 /* NestedFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedFormField.swift; sourceTree = "<group>"; };
+		899026622867488E00F99AC9 /* NestedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedContentView.swift; sourceTree = "<group>"; };
+		8990266428674B2000F99AC9 /* MiniMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 		8969A7D72866F2D900B478C6 /* PrefKeyTests */ = {
 			isa = PBXGroup;
 			children = (
+				8990265B2867458300F99AC9 /* Nested Views */,
 				8969A7D82866F2D900B478C6 /* PrefKeyTestsApp.swift */,
 				8969A7DA2866F2D900B478C6 /* ContentView.swift */,
 				8969A7DC2866F2DB00B478C6 /* Assets.xcassets */,
@@ -128,6 +139,18 @@
 				8969A7F52866F2DC00B478C6 /* PrefKeyTestsUITestsLaunchTests.swift */,
 			);
 			path = PrefKeyTestsUITests;
+			sourceTree = "<group>";
+		};
+		8990265B2867458300F99AC9 /* Nested Views */ = {
+			isa = PBXGroup;
+			children = (
+				8990265C286745A200F99AC9 /* MyViewType.swift */,
+				8990265E2867461E00F99AC9 /* NestedViewsPreference.swift */,
+				899026602867476E00F99AC9 /* NestedFormField.swift */,
+				899026622867488E00F99AC9 /* NestedContentView.swift */,
+				8990266428674B2000F99AC9 /* MiniMap.swift */,
+			);
+			path = "Nested Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8969A7DB2866F2D900B478C6 /* ContentView.swift in Sources */,
+				8990265F2867461E00F99AC9 /* NestedViewsPreference.swift in Sources */,
+				899026632867488E00F99AC9 /* NestedContentView.swift in Sources */,
+				8990266528674B2000F99AC9 /* MiniMap.swift in Sources */,
 				8969A7D92866F2D900B478C6 /* PrefKeyTestsApp.swift in Sources */,
+				899026612867476E00F99AC9 /* NestedFormField.swift in Sources */,
+				8990265D286745A200F99AC9 /* MyViewType.swift in Sources */,
 				8969A8032866F9E500B478C6 /* MyTextPreferenceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
